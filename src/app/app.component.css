@@ -1,0 +1,129 @@
+.error-alert {
+    background: transparent;
+    padding: 7px;
+    font-size: .9em;
+    margin-bottom: 20px;
+    display: inline-block;
+    animation: 0s alertAnim forwards;
+    color: red;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 3rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Muli';
+    font-size: 2em;
+}
+
+.button.disabled,
+.button.disabled:focus,
+.button.disabled:hover,
+.button[disabled],
+.button[disabled]:focus,
+.button[disabled]:hover {
+    background-color: red;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.button.disabled,
+.button[disabled] {
+    opacity: .25;
+    cursor: not-allowed;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.button[_ngcontent-c0] {
+    margin-top: 3rem;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: .85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-transition: background-color .25s ease-out, color .25s ease-out;
+    transition: background-color .25s ease-out, color .25s ease-out;
+    font-size: .9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    /* background-color: #1779ba; */
+    background-color: green;
+    color: #fefefe;
+    font-size: 16px;
+}
+
+[type="button"],
+[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+
+.sim-server {
+    margin: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.sim-lnk {
+    margin: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.angular {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-image: url(../assets/images/angular.png);
+}
+
+.ang-form {
+    margin: 20px 20px 20px 0;
+    width: 220px;
+    border: solid 0px #000;
+    display: flex;
+}
+
+.ang-text {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.pd-top {
+    padding-top: 5px;
+}
