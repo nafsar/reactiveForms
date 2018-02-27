@@ -16,7 +16,7 @@
 
         </div>
 
-        <div class="error-alert" *ngIf="!reactiveForm.controls['name'].valid && reactiveForm.controls['name'].touched">{{ nameError }}</div>
+        <div class="error-message" *ngIf="!reactiveForm.controls['name'].valid && reactiveForm.controls['name'].touched">{{ nameError }}</div>
 
         <div class="input-group input-group-lg pd-top">
           <span class="input-group-addon">
@@ -24,7 +24,7 @@
           </span>
           <input type="text" placeholder="Email address" class="form-control" formControlName="email">
         </div>
-        <div class="error-alert" *ngIf="!reactiveForm.controls['email'].valid && reactiveForm.controls['email'].touched">{{ emailError }}</div>
+        <div class="error-message" *ngIf="!reactiveForm.controls['email'].valid && reactiveForm.controls['email'].touched">{{ emailError }}</div>
 
 
         <div class="input-group input-group-lg pd-top">
