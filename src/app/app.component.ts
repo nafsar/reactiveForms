@@ -28,6 +28,7 @@ export class AppComponent implements OnInit {
     if (this.reactiveForm.valid) {
       this.textMessage = result.textMessage;
       this.name = result.name;
+      this.email = result.email;
     }
   }
 }
